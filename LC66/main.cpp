@@ -34,7 +34,7 @@ int main() {
 
     Solution result;
 //    vector<int>vec{6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3};
-    vector<int>vec2{1,5};
+    vector<int>vec2{9,9};
 //    print(result.plusOne(vec));
     cout<<endl;
     print(result.plusOne(vec2));
