@@ -18,9 +18,6 @@ public:
             else if (i == x/2){
                 return i;
             }
-            else if (x == 2147483647){
-                return 46340;
-            }
             i++;
         }
 
@@ -33,7 +30,7 @@ int main() {
 
     Solution result;
 
-    std::cout << result.mySqrt(2147395600) << std::endl;
+    std::cout << result.mySqrt(2147395601) << std::endl;
 //    std::cout << result.mySqrt(2147483647) << std::endl;
     return 0;
 }
