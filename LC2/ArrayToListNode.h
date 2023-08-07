@@ -8,14 +8,14 @@
 #include <iostream>
 using namespace std;
 
-struct Node {
+struct ListNode {
     int data;
-    Node* next;
+    ListNode* next;
 };
 
-void insert(Node** root, int item) {
-    Node* temp = new Node;
-    Node* ptr;
+void insert(ListNode** root, int item) {
+    ListNode* temp = new ListNode;
+    ListNode* ptr;
     temp->data = item;
     temp->next = NULL;
 
@@ -31,15 +31,15 @@ void insert(Node** root, int item) {
     }
 }
 
-void printListNode(Node* root){
+void printListNode(ListNode* root){
     while(root!= NULL){
         cout <<root->data<<" -> ";
         root = root->next;
     }
 }
 
-Node* arrayToList(int arr[], int n){
-    Node *root = NULL;
+ListNode* arrayToList(int arr[], int n){
+    ListNode *root = NULL;
     for(int i = 0; i < n; i++){
         insert(&root, arr[i]);
     }
