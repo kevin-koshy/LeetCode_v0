@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ArrayToListNode.h"
+#include "../LC2/ArrayToListNode.h"
 using namespace std;
 
 //  Definition for singly-linked list.
