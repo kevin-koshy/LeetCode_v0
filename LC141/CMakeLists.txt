@@ -3,4 +3,4 @@ project(LC141)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(LC141 main.cpp ArrayToListNode.h)
+add_executable(LC141 main.cpp ../LC2/ArrayToListNode.h)
