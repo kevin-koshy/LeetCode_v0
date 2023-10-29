@@ -29,12 +29,12 @@ impl Solution {
                 result.push('0');
             }
             carry /= 2;
-            if carry == 1 {
-                result.push('0');
-            }
+
             count -= 1;
         }
-
+        if carry == 1 {
+            result.push('1');
+        }
 
         let result: String = result.chars().rev().collect();
 
@@ -46,8 +46,8 @@ impl Solution {
 
 fn main() {
     println!("Hello, world!");
-    let a = "111111".to_string();
-    let b = "1".to_string();
+    let a = "1010".to_string();
+    let b = "1011".to_string();
     let result = Solution::add_binary(a, b);
     println!("{}", result);
 }
