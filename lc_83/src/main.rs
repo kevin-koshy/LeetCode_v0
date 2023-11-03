@@ -1,6 +1,6 @@
 // Definition for singly-linked list.
 
-use lc_83::{List,Link};
+// use lc_83::{List,Link};
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
   pub val: i32,
@@ -26,34 +26,37 @@ fn push_val_to_node(node: &mut ListNode, val: i32){
         push_val_to_node(node.next.as_mut().unwrap(), val);
     }
 }
-
+#[derive (Debug)]
 struct Solution;
 
 impl Solution {
-    pub fn delete_duplicates(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
-        println!("{:?}", head);
-
-        let mut node = head;
-        if node.is_none(){
-            return None;
+    pub fn delete_duplicates(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+        let mut cur = &mut head;
+        while let Some(node) = cur {
+            while let Some(next_node) = &mut node.next {
+                if node.val == next_node.val {
+                    node.next = next_node.next.take();
+                } else {
+                    break;
+                }
+            }
+            cur = &mut node.next;
         }
-        let mut curr = head;
-        while  { curr != None; } {
-            
-
-        }
+        head
     }
 }
-
 fn main() {
 
-    let mut x = ListNode::new(1);
-    push_val_to_node(& mut x,2);
-    push_val_to_node(& mut x,2);
-    push_val_to_node(& mut x,4);
-    push_val_to_node(& mut x,5);
-    println!("{:?}", x);
+    let mut tx = ListNode::new(1);
+    push_val_to_node(& mut tx,2);
+    push_val_to_node(& mut tx,2);
+    push_val_to_node(& mut tx,4);
+    push_val_to_node(& mut tx,5);
 
-    Solution::delete_duplicates( Some(Box::new(x)));
+    println!("{:?}",Solution::delete_duplicates( Some(Box::new(tx))));
+    // Solution::delete_duplicates( Some(Box::new(x)));
+
+
+
     }
 
