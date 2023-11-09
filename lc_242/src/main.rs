@@ -9,10 +9,14 @@ impl Solution {
         let mut y:Vec<char> = t.chars().collect();
         x.sort();
         y.sort();
-        for i in 0..s.len() {
-            if x[i] != y[i] {
-                return false;
-            }
+        // for i in 0..s.len() {
+        //     if x[i] != y[i] {
+        //         return false;
+        //     }
+        // }
+        for char in x.iter(){
+            y.binary_search(&char).is_ok();
+            
         }
         true
     }
