@@ -21,11 +21,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="578ccb48-62a9-47d1-99a1-fcd44c3240ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LC83/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lc_88_py/.idea/lc_88_py.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lc_88_py/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lc_83/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../lc_83/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lc_83/target/debug/.fingerprint/lc_83-f81d45fe0f17ec3a/bin-lc_83" beforeDir="false" afterPath="$PROJECT_DIR$/../lc_83/target/debug/.fingerprint/lc_83-f81d45fe0f17ec3a/bin-lc_83" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lc_83/target/debug/.fingerprint/lc_83-f81d45fe0f17ec3a/output-bin-lc_83" beforeDir="false" afterPath="$PROJECT_DIR$/../lc_83/target/debug/.fingerprint/lc_83-f81d45fe0f17ec3a/output-bin-lc_83" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lc_83/target/debug/deps/lc_83-f81d45fe0f17ec3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc_242/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../lc_242/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc_83/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lc_83/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lc_83_py/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lc_83_py/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +50,9 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="1.5" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2TTWgalXpRaF6ZfpvYDO2MQsbIf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,9 +63,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/kevinkoshy/Documents/Development/LeetCode/LC2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,12 +84,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="LC2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LC2" TARGET_NAME="LC2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LC2" RUN_TARGET_NAME="LC2">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LC2" TARGET_NAME="LC2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LC2" RUN_TARGET_NAME="LC2">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -101,7 +106,8 @@
       <workItem from="1691067663869" duration="15607000" />
       <workItem from="1691416117013" duration="1976000" />
       <workItem from="1693594094965" duration="23000" />
-      <workItem from="1698945335082" duration="2375000" />
+      <workItem from="1698945335082" duration="2982000" />
+      <workItem from="1699635161331" duration="650000" />
     </task>
     <servers />
   </component>

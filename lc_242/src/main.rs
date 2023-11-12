@@ -16,7 +16,7 @@ impl Solution {
         // }
         for char in x.iter(){
             y.binary_search(&char).is_ok();
-            
+
         }
         true
     }
